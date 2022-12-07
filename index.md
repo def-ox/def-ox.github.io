@@ -4,7 +4,7 @@ meta-description: "DeFOx: Decentralised Finance Research Group at Oxford"
 ---
 
 # DeFOx
-Technology is reshaping the future of the financial landscape and challengin traditional stakeholders. The aim of DeFOx is to discuss and promote academic and industrial work adressing the emerging challenges in finance. DeFOx focuses the attention on the recent and cutting-edge contributions to topics in decentralised finance and financial technology: economics, microstructure, models of liquidity taking and making, and new design paradigms that can help lay the foundations for the future fianncial landscape. 
+Technology is reshaping the future of the financial landscape and challenging traditional stakeholders. The aim of DeFOx is to discuss and promote academic and industrial work addressing the emerging challenges in finance. DeFOx focuses the attention on the recent and cutting-edge contributions to topics in decentralised finance and financial technology: economics, microstructure, models of liquidity taking and making, and new design paradigms that can help lay the foundations for the future financial landscape. 
 
 
 
