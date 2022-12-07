@@ -56,7 +56,7 @@ Technology is reshaping the future of the financial landscape and challengin tra
 **News**:
 * News incoming.
 
-**Organizers:** <a href="https://www.stats.ox.ac.uk/~cucuring/">Mihai Cucuringu</a>, <a href="https://www0.maths.ox.ac.uk/people/faycal.drissi">Fayçal Drissi</a>, <a href="https://www.maths.ox.ac.uk/people/deborah.miori">Deborah Miori</a>, <a href="https://www.maths.ox.ac.uk/people/marcello.monga">Marcello Monga</a>
+**Organizers:** <a href="https://sites.google.com/site/alvarocartea/home">Álvaro Cartea</a>,<a href="https://www.stats.ox.ac.uk/~cucuring/">Mihai Cucuringu</a>, <a href="https://www0.maths.ox.ac.uk/people/faycal.drissi">Fayçal Drissi</a>, <a href="https://www.maths.ox.ac.uk/people/deborah.miori">Deborah Miori</a>, <a href="https://www.maths.ox.ac.uk/people/marcello.monga">Marcello Monga</a>
 
 **Join us**:
 Participants can join to receive notifications about the seminar series, click <a href="mailto:mihai.cucuringu@stats.ox.ac.uk">here</a> to send a request.
