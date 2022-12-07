@@ -13,11 +13,55 @@
       bio: "https://www.linkedin.com/in/jack-chong/"
       link: 
     - speaker: Agostino Capponi (Columbia University)
-      date: January 18, 2022
+      date: January 18, 2023
       title: "The Information Content of Blockchain Fees"
       abstract: "Trading at decentralized exchanges (DEXs) requires traders to bid blockchain fees to determine the execution priority of their orders. We employ a structural vector-autoregressive (structural VAR) model to provide evidence that DEX trades with high fees not only reveal more private information, but also respond more to public price innovations on centralized exchanges (CEXs), contributing to price discovery. Using a unique dataset of Ethereum mempool orders, we further demonstrate that high fees do not result from traders competing with each other on private or public information. Rather, our analysis lends support to the hypothesis that they bid high fees to reduce the execution risk of their orders due to blockchain congestion."
       bio: "http://www.columbia.edu/~ac3827/"
       link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236993
+
+    - speaker: TBC
+      date: January 25, 2023
+      title: "TBC"
+      abstract: "TBC"
+      bio: "TBC"
+      link: ""
+
+    - speaker: TBC
+      date: February 1, 2023
+      title: "TBC"
+      abstract: "TBC"
+      bio: "TBC"
+      link: ""
+
+    - speaker: Philippe Bergault (Université Paris Dauphine)
+      date: February 8, 2023
+      title: "Liquidity Providers in Automated Market Makers: a Mean-Variance Analysis of Payoffs"
+      abstract: "We analyze the performance of Liquidity Providers (LPs) providing liquidity to different types of Automated Market Makers (AMMs). This analysis is carried out using a mean / standard deviation viewpoint à la Markowitz, though based on the PnL of LPs compared to that of agents holding coins outside of AMMs. We show that LPs tend to perform poorly in a wide variety of CFMMs under realistic market conditions. We then explore an alternative AMM design in which an oracle feeds the current market exchange rate to the AMM which then quotes a bid/ask spread. This allows us to define an efficient frontier for the performance of LPs in an idealized world with perfect information and to show that the smart use of oracles greatly improves LPs' risk / return profile, even in the case of a lagged oracle. "
+      bio: "https://sites.google.com/view/bergaultphilippe"
+      link: "https://arxiv.org/abs/2212.00336"
+
+    - speaker: TBC
+      date: February 115, 2023
+      title: "TBC"
+      abstract: "TBC"
+      bio: "TBC"
+      link: ""
+
+    - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
+      date: February 22, 2023
+      title: "Mining Pool and Centralization in Proof-of-Work Equipped Blockchain"
+      abstract: "Mining in isolation is no longer possible in popular Proof-of-Work blockchains these days. Miners join mining pools to mitigate the financial risk induced by mining activity. The presentation focuses on mining pools that apply the Pay-per-Share reward system. A value function based on the surplus of miners and pool managers is defined to better understand the agent's decision whether or not to join a mining pool. Will these interactions between miners and pool managers result in a balanced situation in terms of distribution of computing power between mining pools?"
+      bio: "http://pierre-olivier.goffard.me/"
+      link: ""
+
+    - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
+      date: February 22, 2023
+      title: "Mining Pool and Centralization in Proof-of-Work Equipped Blockchain"
+      abstract: "Mining in isolation is no longer possible in popular Proof-of-Work blockchains these days. Miners join mining pools to mitigate the financial risk induced by mining activity. The presentation focuses on mining pools that apply the Pay-per-Share reward system. A value function based on the surplus of miners and pool managers is defined to better understand the agent's decision whether or not to join a mining pool. Will these interactions between miners and pool managers result in a balanced situation in terms of distribution of computing power between mining pools?"
+      bio: "http://pierre-olivier.goffard.me/"
+      link: ""
+
+
 
 - type: Past Talks
   members:
@@ -26,7 +70,7 @@
       title: "Differential Liquidity Provision in Uniswap V3 and Implications for Contract Design"
       abstract: "Decentralized exchanges (DEXs) facilitate trading assets on-chain without the need of a trusted third party. Amongst these, constant function market maker DEXs such as Uniswap handle the most volume of trades between ERC-20 tokens. In Uniswap v3, liquidity providers (LPs) are given the option to differentially allocate liquidity to be used for trades that occur within specific price intervals. We formalize the profit and loss that LPs can earn in simplified trade dynamics and are able to compute optimal liquidity allocations for liquidity providers who hold fixed price trajectory beliefs. We use this tool to shed light on the design question regarding how v3 contracts should partition price space for permissible liquidity allocations. Our results suggest that a richer space of potential partitions can simultaneously benefit both LPs and traders."
       bio: "Matheus Venturyne Xavier Ferreira is a Postdoctoral Fellow in Computer Science at Harvard John A. Paulson School of Engineering and Applied Sciences. He holds a PhD (2022) and a MA (2018) in Computer Science from Princeton University and a BS in Computer Engineering (2016) from the Federal University of Itajubá. His primary research interests are in market design, algorithmic economics, cryptography, and information security. He is particularly interested in how one can build trust by building platforms that have the incentive to follow their own specification. For example, auctions are the main building block of how we transact on eBay or how Google sells advertising; however, it is impossible to know whether or not a self-interested auctioneer is also shill bidding, i.e., bidding in their auction with a fake identity. His research shows this kind of manipulation is not inevitable, and one can design auctions that are credible by design."
-      link: https://arxiv.org/abs/2209.15569
+      link: "https://arxiv.org/abs/2209.15569"
     - speaker: Ronnie Sircar (Princeton University)
       date: November 30, 2022
       title: "Cryptocurrencies, Mining & Mean Field Games"
