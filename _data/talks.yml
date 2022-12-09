@@ -1,6 +1,6 @@
 - type: Future Talks
   members:
-    - speaker: Kristof Lommers (University of Oxford, Said Business School)
+    - speaker: Kristof Lommers (University of Oxford, Saïd Business School)
       date: December 14, 2022
       title: "Market Making in NFTs"
       abstract: "This study discusses a framework for market making in Non-Fungible Tokens (NFTs) which represent unique digital assets in a low liquidity and high price volatility environment. The market making problem differs from fungible cryptocurrencies as there is no layered orderbook structure of market depth and market makers would need to hold inventory on the other side of the trades for a non-negligible horizon. We have developed a model for prices in market making context in terms of embedded optionality of trading an NFT at either the floor or a price that is closer to the appraisal value. In order to develop the model for optionality of trading an NFT, we have defined a model on the joint price dynamics of the NFT and its corresponding floor. The price dynamics were decomposed into an intrinsic price diffusion process and jump components relating to liquidity events. Besides NFTs, the approach presented in this paper could provide insights for market making in other ”non- fungible” asset classes such as art or housing. "
