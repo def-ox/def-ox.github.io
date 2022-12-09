@@ -32,6 +32,11 @@ Technology is reshaping the future of the financial landscape and challenging tr
     <summary>Abstract</summary>
     {{ talk.abstract }}
     
+    {% if talk.link %}
+    <summary>Link to paper</summary>
+    {{ talk.link }}
+    {% endif %}
+
     {% if talk.bio %}
     <br><br>
     <strong>Bio: </strong> {{ talk.bio }}
@@ -52,9 +57,6 @@ Technology is reshaping the future of the financial landscape and challenging tr
 {% endfor %}
 
 # About DeFOx
-
-**News**:
-* News incoming.
 
 **Organisers:** <a href="https://sites.google.com/site/alvarocartea/home">Álvaro Cartea</a>, <a href="https://www.stats.ox.ac.uk/~cucuring/">Mihai Cucuringu</a>, <a href="https://www0.maths.ox.ac.uk/people/faycal.drissi">Fayçal Drissi</a>, <a href="https://www.maths.ox.ac.uk/people/deborah.miori">Deborah Miori</a>, <a href="https://www.maths.ox.ac.uk/people/marcello.monga">Marcello Monga</a>
 
