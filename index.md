@@ -24,6 +24,9 @@ Technology is reshaping the future of the financial landscape and challenging tr
       <span><a class="talk-title-link" href="{{ talk.livestream }}">{{ talk.title }} <i class="bi bi-box-arrow-up-right"></i></a></span>
     {% else %}
       <span>{{ talk.title }}</span>
+      {% if talk.link %}
+      <summary><a href="{{ talk.link }}">Link to paper</a> </summary>
+      {% endif %}
     {% endif %}
   </div>
   {% endif %}
@@ -32,9 +35,7 @@ Technology is reshaping the future of the financial landscape and challenging tr
     <summary>Abstract</summary>
     {{ talk.abstract }}
     
-    {% if talk.link %}
-    <summary><a href="{{ talk.link }}">Link to paper</a> </summary>
-    {% endif %}
+    
 
     {% if talk.bio %}
     <br><br>
