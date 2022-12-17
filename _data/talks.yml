@@ -28,12 +28,12 @@
       bio: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743"
       link: ""
 
-    - speaker: TBC
+    - speaker: Tristan Lim (Nanyang Polytechnic)
       date: February 1, 2023
-      title: "TBC"
-      abstract: "TBC"
-      bio: "TBC"
-      link: ""
+      title: "Predictive Crypto-Asset Automated Market Making Architecture for Decentralized Finance using Deep Reinforcement Learning"
+      abstract: "The study proposes a quote-driven predictive automated market maker (AMM) platform with on-chain custody and settlement functions, alongside off-chain predictive reinforcement learning capabilities to improve liquidity provision of real-world AMMs. The proposed AMM architecture is an augmentation to the Uniswap V3, a cryptocurrency AMM protocol, by utilizing a novel market equilibrium pricing for reduced divergence and slippage loss. Further, the proposed architecture involves a predictive AMM capability, utilizing a deep hybrid Long Short-Term Memory (LSTM) and Q-learning reinforcement learning framework that looks to improve market efficiency through better forecasts of liquidity concentration ranges, so liquidity starts moving to expected concentration ranges, prior to asset price movement, so that liquidity utilization is improved. The augmented protocol framework is expected have practical real-world implications, by (i) reducing divergence loss for liquidity providers, (ii) reducing slippage for crypto-asset traders, while (iii) improving capital efficiency for liquidity provision for the AMM protocol. To our best knowledge, there are no known protocol or literature that are proposing similar deep learning-augmented AMM that achieves similar capital efficiency and loss minimization objectives for practical real-world applications. "
+      bio: "https://www.linkedin.com/in/tristan-lim-82135154/"
+      link: https://arxiv.org/abs/2211.01346
 
     - speaker: Philippe Bergault (Université Paris Dauphine)
       date: February 8, 2023
@@ -42,12 +42,12 @@
       bio: "https://sites.google.com/view/bergaultphilippe"
       link: "https://arxiv.org/abs/2212.00336"
 
-    - speaker: Tristan Lim (Nanyang Polytechnic)
+    - speaker: Andre Rzym (Man Group)
       date: February 15, 2023
-      title: "Predictive Crypto-Asset Automated Market Making Architecture for Decentralized Finance using Deep Reinforcement Learning"
-      abstract: "The study proposes a quote-driven predictive automated market maker (AMM) platform with on-chain custody and settlement functions, alongside off-chain predictive reinforcement learning capabilities to improve liquidity provision of real-world AMMs. The proposed AMM architecture is an augmentation to the Uniswap V3, a cryptocurrency AMM protocol, by utilizing a novel market equilibrium pricing for reduced divergence and slippage loss. Further, the proposed architecture involves a predictive AMM capability, utilizing a deep hybrid Long Short-Term Memory (LSTM) and Q-learning reinforcement learning framework that looks to improve market efficiency through better forecasts of liquidity concentration ranges, so liquidity starts moving to expected concentration ranges, prior to asset price movement, so that liquidity utilization is improved. The augmented protocol framework is expected have practical real-world implications, by (i) reducing divergence loss for liquidity providers, (ii) reducing slippage for crypto-asset traders, while (iii) improving capital efficiency for liquidity provision for the AMM protocol. To our best knowledge, there are no known protocol or literature that are proposing similar deep learning-augmented AMM that achieves similar capital efficiency and loss minimization objectives for practical real-world applications. "
-      bio: "https://www.linkedin.com/in/tristan-lim-82135154/"
-      link: https://arxiv.org/abs/2211.01346
+      title: "TBC"
+      abstract: "TBC"
+      bio: "TBC"
+      link: TBC
 
     - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
       date: February 22, 2023
