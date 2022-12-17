@@ -1,12 +1,5 @@
 - type: Future Talks
   members:
-    - speaker: Kristof Lommers (University of Oxford, Saïd Business School)
-      date: December 14, 2022
-      title: "Market Making in NFTs"
-      abstract: "This study discusses a framework for market making in Non-Fungible Tokens (NFTs) which represent unique digital assets in a low liquidity and high price volatility environment. The market making problem differs from fungible cryptocurrencies as there is no layered orderbook structure of market depth and market makers would need to hold inventory on the other side of the trades for a non-negligible horizon. We have developed a model for prices in market making context in terms of embedded optionality of trading an NFT at either the floor or a price that is closer to the appraisal value. In order to develop the model for optionality of trading an NFT, we have defined a model on the joint price dynamics of the NFT and its corresponding floor. The price dynamics were decomposed into an intrinsic price diffusion process and jump components relating to liquidity events. Besides NFTs, the approach presented in this paper could provide insights for market making in other ”non- fungible” asset classes such as art or housing. "
-      bio: "https://www.linkedin.com/in/kristoflommers"
-      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4226987
-
     - speaker: Jack Chong (University of Oxford, frigg.eco)
       date: December 21, 2022
       title: " An Unreal Primer on Real World Assets (RWAs)"
@@ -21,7 +14,7 @@
       bio: "http://www.columbia.edu/~ac3827/"
       link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236993
 
-    - speaker: Marcello Monga
+    - speaker: Marcello Monga (University of Oxford - Oxford-Man Institute)
       date: January 25, 2023
       title: "Decentralised Finance and Automated Market Making: Execution and Speculation"
       abstract: "Automated market makers (AMMs) are a new prototype of trading venues which are revolutionising the way market participants interact. At present, the majority of AMMs are constant function market makers (CFMMs) where a deterministic trading function determines how markets are cleared. A distinctive characteristic of CFMMs is that execution costs are given by a closed-form function of price, liquidity, and transaction size. This gives rise to a new class of trading problems. We focus on constant product market makers and show how to optimally trade a large position in an asset and how to execute statistical arbitrages based on market signals. We employ stochastic optimal control tools to devise two strategies. One strategy is based on the dynamics of prices in competing venues and assumes constant liquidity in the AMM. The other strategy assumes that AMM prices are efficient and liquidity is stochastic. We use Uniswap v3 data to study price, liquidity, and trading cost dynamics, and to motivate the models. Finally, we perform consecutive runs of in-sample estimation of model parameters and out-of-sample liquidation and arbitrage strategies to showcase the performance of the strategies. "
@@ -60,6 +53,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Kristof Lommers (University of Oxford, Saïd Business School)
+      date: December 14, 2022
+      title: "Market Making in NFTs"
+      abstract: "This study discusses a framework for market making in Non-Fungible Tokens (NFTs) which represent unique digital assets in a low liquidity and high price volatility environment. The market making problem differs from fungible cryptocurrencies as there is no layered orderbook structure of market depth and market makers would need to hold inventory on the other side of the trades for a non-negligible horizon. We have developed a model for prices in market making context in terms of embedded optionality of trading an NFT at either the floor or a price that is closer to the appraisal value. In order to develop the model for optionality of trading an NFT, we have defined a model on the joint price dynamics of the NFT and its corresponding floor. The price dynamics were decomposed into an intrinsic price diffusion process and jump components relating to liquidity events. Besides NFTs, the approach presented in this paper could provide insights for market making in other ”non- fungible” asset classes such as art or housing. "
+      bio: "https://www.linkedin.com/in/kristoflommers"
+      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4226987
     - speaker: Francisco Marmolejo Cossio (Harvard University)
       date: December 7, 2022
       title: "Differential Liquidity Provision in Uniswap V3 and Implications for Contract Design"
@@ -78,11 +77,11 @@
       abstract: "We introduce a new comprehensive metric of predictable loss (PL) for liquidity providers in constant function automated market makers and derive an optimal liquidity provision strategy. PL compares the value of the LP's holdings in the liquidity pool (assuming no fee revenue) with that of a self-financing portfolio that replicates the LP's holdings and invests in a risk-free account. We provide closed-form formulae for PL, and show that the losses stem from two sources: the convexity cost, which depends on liquidity taking activity and the convexity of the pool's trading function; the opportunity cost, which is due to locking the LP's assets in the pool. For LPs in constant product market makers with concentrated liquidity, we derive a closed-form strategy that dynamically adjusts the range around the exchange rate as a function of market trend, volatility, and liquidity taking activity in the pool. We prove that the profitability of liquidity provision depends on the tradeoff between PL and fee income. Finally, we use Uniswap v3 data to show that LPs have traded at a significant loss, and to show that the out-of-sample performance of our strategy is considerably superior to the historical performance of LPs in the pool we consider. "
       bio: "Fayçal Drissi is a PhD candidate at Université Paris 1 Panthéon-Sorbonne."    
       link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4273989
-    - speaker: Deborah Miori (University of Oxford)
+    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
       date: November 16, 2022
       title: "An overview of Uniswap"
       abstract: "An overview of the main features and innovations described in Uniswap v1, v2 and v3 whitepapers"
-    - speaker: Deborah Miori (University of Oxford)
+    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
       date: November 9, 2022
       title: "A review of essential principles of decentralized finance"
       bio: "Deborah Miori is a Dphill candidate at University of Oxford."     
