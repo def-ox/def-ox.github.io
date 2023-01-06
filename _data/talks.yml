@@ -1,11 +1,5 @@
 - type: Future Talks
   members:
-    - speaker: Jack Chong (University of Oxford, frigg.eco)
-      date: December 21, 2022
-      title: " An Unreal Primer on Real World Assets (RWAs)"
-      abstract: "An Unreal Primer on Real World Assets (RWAs)"
-      bio: "https://www.linkedin.com/in/jack-chong/"
-      link: 
 
     - speaker: Agostino Capponi (Columbia University)
       date: January 18, 2023
@@ -53,6 +47,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Jack Chong (University of Oxford, frigg.eco)
+      date: December 21, 2022
+      title: " An Unreal Primer on Real World Assets (RWAs)"
+      abstract: "An Unreal Primer on Real World Assets (RWAs)"
+      bio: "https://www.linkedin.com/in/jack-chong/"
+      link: 
     - speaker: Kristof Lommers (University of Oxford, Saïd Business School)
       date: December 14, 2022
       title: "Market Making in NFTs"
