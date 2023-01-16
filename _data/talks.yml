@@ -4,7 +4,7 @@
     - speaker: Agostino Capponi (Columbia University)
       date: January 18, 2023
       title: "The Information Content of Blockchain Fees"
-      abstract: "Trading at decentralized exchanges (DEXs) requires traders to bid blockchain fees to determine the execution priority of their orders. We employ a structural vector-autoregressive (structural VAR) model to provide evidence that DEX trades with high fees not only reveal more private information, but also respond more to public price innovations on centralized exchanges (CEXs), contributing to price discovery. Using a unique dataset of Ethereum mempool orders, we further demonstrate that high fees do not result from traders competing with each other on private or public information. Rather, our analysis lends support to the hypothesis that they bid high fees to reduce the execution risk of their orders due to blockchain congestion."
+      abstract: "In contrast to most centralized exchanges (CEXs) which match orders continuously following a price-time priority rule, decentralized exchanges (DEXs) process orders in batches and require traders to bid transaction fees to determine the execution priority. We provide evidence that informed traders bid high fees to execute their orders, thus revealing their private information and contributing to price discovery. We further show that they bid high fees not only to avoid execution risk but also to compete with each other. Using a unique dataset of Ethereum mempool orders, we last demonstrate that the competition among informed traders mostly follows a jump bidding strategy."
       bio: "http://www.columbia.edu/~ac3827/"
       link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236993
 
