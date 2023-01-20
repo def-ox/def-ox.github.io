@@ -1,12 +1,7 @@
 - type: Future Talks
   members:
 
-    - speaker: Agostino Capponi (Columbia University)
-      date: January 18, 2023
-      title: "The Information Content of Blockchain Fees"
-      abstract: "Trading at decentralized exchanges (DEXs) requires traders to bid blockchain fees to determine the execution priority of their orders. We employ a structural vector-autoregressive (structural VAR) model to provide evidence that DEX trades with high fees not only reveal more private information, but also respond more to public price innovations on centralized exchanges (CEXs), contributing to price discovery. Using a unique dataset of Ethereum mempool orders, we further demonstrate that high fees do not result from traders competing with each other on private or public information. Rather, our analysis lends support to the hypothesis that they bid high fees to reduce the execution risk of their orders due to blockchain congestion."
-      bio: "http://www.columbia.edu/~ac3827/"
-      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236993
+
 
     - speaker: Marcello Monga (University of Oxford - Oxford-Man Institute)
       date: January 25, 2023
@@ -47,6 +42,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Agostino Capponi (Columbia University)
+      date: January 18, 2023
+      title: "The Information Content of Blockchain Fees"
+      abstract: "Trading at decentralized exchanges (DEXs) requires traders to bid blockchain fees to determine the execution priority of their orders. We employ a structural vector-autoregressive (structural VAR) model to provide evidence that DEX trades with high fees not only reveal more private information, but also respond more to public price innovations on centralized exchanges (CEXs), contributing to price discovery. Using a unique dataset of Ethereum mempool orders, we further demonstrate that high fees do not result from traders competing with each other on private or public information. Rather, our analysis lends support to the hypothesis that they bid high fees to reduce the execution risk of their orders due to blockchain congestion."
+      bio: "http://www.columbia.edu/~ac3827/"
+      link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4236993
     - speaker: Jack Chong (University of Oxford, frigg.eco)
       date: December 21, 2022
       title: " An Unreal Primer on Real World Assets (RWAs)"
