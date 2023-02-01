@@ -2,20 +2,6 @@
   members:
 
 
-    - speaker: Marcello Monga (University of Oxford - Oxford-Man Institute)
-      date: January 25, 2023
-      title: "Decentralised Finance and Automated Market Making: Execution and Speculation"
-      abstract: "Automated market makers (AMMs) are a new prototype of trading venues which are revolutionising the way market participants interact. At present, the majority of AMMs are constant function market makers (CFMMs) where a deterministic trading function determines how markets are cleared. A distinctive characteristic of CFMMs is that execution costs are given by a closed-form function of price, liquidity, and transaction size. This gives rise to a new class of trading problems. We focus on constant product market makers and show how to optimally trade a large position in an asset and how to execute statistical arbitrages based on market signals. We employ stochastic optimal control tools to devise two strategies. One strategy is based on the dynamics of prices in competing venues and assumes constant liquidity in the AMM. The other strategy assumes that AMM prices are efficient and liquidity is stochastic. We use Uniswap v3 data to study price, liquidity, and trading cost dynamics, and to motivate the models. Finally, we perform consecutive runs of in-sample estimation of model parameters and out-of-sample liquidation and arbitrage strategies to showcase the performance of the strategies. "
-      bio: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743"
-      link: ""
-
-    - speaker: Tristan Lim (Nanyang Polytechnic)
-      date: February 1, 2023
-      title: "Predictive Crypto-Asset Automated Market Making Architecture for Decentralized Finance using Deep Reinforcement Learning"
-      abstract: "The study proposes a quote-driven predictive automated market maker (AMM) platform with on-chain custody and settlement functions, alongside off-chain predictive reinforcement learning capabilities to improve liquidity provision of real-world AMMs. The proposed AMM architecture is an augmentation to the Uniswap V3, a cryptocurrency AMM protocol, by utilizing a novel market equilibrium pricing for reduced divergence and slippage loss. Further, the proposed architecture involves a predictive AMM capability, utilizing a deep hybrid Long Short-Term Memory (LSTM) and Q-learning reinforcement learning framework that looks to improve market efficiency through better forecasts of liquidity concentration ranges, so liquidity starts moving to expected concentration ranges, prior to asset price movement, so that liquidity utilization is improved. The augmented protocol framework is expected have practical real-world implications, by (i) reducing divergence loss for liquidity providers, (ii) reducing slippage for crypto-asset traders, while (iii) improving capital efficiency for liquidity provision for the AMM protocol. To our best knowledge, there are no known protocol or literature that are proposing similar deep learning-augmented AMM that achieves similar capital efficiency and loss minimization objectives for practical real-world applications. "
-      bio: "https://www.linkedin.com/in/tristan-lim-82135154/"
-      link: https://arxiv.org/abs/2211.01346
-
     - speaker: Philippe Bergault (Université Paris Dauphine)
       date: February 8, 2023
       title: "Liquidity Providers in Automated Market Makers: a Mean-Variance Analysis of Payoffs"
@@ -41,6 +27,21 @@
 
 - type: Past Talks
   members:
+
+
+    - speaker: Marcello Monga (University of Oxford - Oxford-Man Institute)
+      date: January 25, 2023
+      title: "Decentralised Finance and Automated Market Making: Execution and Speculation"
+      abstract: "Automated market makers (AMMs) are a new prototype of trading venues which are revolutionising the way market participants interact. At present, the majority of AMMs are constant function market makers (CFMMs) where a deterministic trading function determines how markets are cleared. A distinctive characteristic of CFMMs is that execution costs are given by a closed-form function of price, liquidity, and transaction size. This gives rise to a new class of trading problems. We focus on constant product market makers and show how to optimally trade a large position in an asset and how to execute statistical arbitrages based on market signals. We employ stochastic optimal control tools to devise two strategies. One strategy is based on the dynamics of prices in competing venues and assumes constant liquidity in the AMM. The other strategy assumes that AMM prices are efficient and liquidity is stochastic. We use Uniswap v3 data to study price, liquidity, and trading cost dynamics, and to motivate the models. Finally, we perform consecutive runs of in-sample estimation of model parameters and out-of-sample liquidation and arbitrage strategies to showcase the performance of the strategies. "
+      bio: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743"
+      link: ""
+
+    - speaker: Tristan Lim (Nanyang Polytechnic)
+      date: February 1, 2023
+      title: "Predictive Crypto-Asset Automated Market Making Architecture for Decentralized Finance using Deep Reinforcement Learning"
+      abstract: "The study proposes a quote-driven predictive automated market maker (AMM) platform with on-chain custody and settlement functions, alongside off-chain predictive reinforcement learning capabilities to improve liquidity provision of real-world AMMs. The proposed AMM architecture is an augmentation to the Uniswap V3, a cryptocurrency AMM protocol, by utilizing a novel market equilibrium pricing for reduced divergence and slippage loss. Further, the proposed architecture involves a predictive AMM capability, utilizing a deep hybrid Long Short-Term Memory (LSTM) and Q-learning reinforcement learning framework that looks to improve market efficiency through better forecasts of liquidity concentration ranges, so liquidity starts moving to expected concentration ranges, prior to asset price movement, so that liquidity utilization is improved. The augmented protocol framework is expected have practical real-world implications, by (i) reducing divergence loss for liquidity providers, (ii) reducing slippage for crypto-asset traders, while (iii) improving capital efficiency for liquidity provision for the AMM protocol. To our best knowledge, there are no known protocol or literature that are proposing similar deep learning-augmented AMM that achieves similar capital efficiency and loss minimization objectives for practical real-world applications. "
+      bio: "https://www.linkedin.com/in/tristan-lim-82135154/"
+      link: https://arxiv.org/abs/2211.01346
     - speaker: Agostino Capponi (Columbia University)
       date: January 18, 2023
       title: "The Information Content of Blockchain Fees"
