@@ -2,12 +2,6 @@
   members:
 
 
-    - speaker: Philippe Bergault (Université Paris Dauphine)
-      date: February 8, 2023
-      title: "Liquidity Providers in Automated Market Makers: a Mean-Variance Analysis of Payoffs"
-      abstract: "We analyze the performance of Liquidity Providers (LPs) providing liquidity to different types of Automated Market Makers (AMMs). This analysis is carried out using a mean / standard deviation viewpoint à la Markowitz, though based on the PnL of LPs compared to that of agents holding coins outside of AMMs. We show that LPs tend to perform poorly in a wide variety of CFMMs under realistic market conditions. We then explore an alternative AMM design in which an oracle feeds the current market exchange rate to the AMM which then quotes a bid/ask spread. This allows us to define an efficient frontier for the performance of LPs in an idealized world with perfect information and to show that the smart use of oracles greatly improves LPs' risk / return profile, even in the case of a lagged oracle. "
-      bio: "https://sites.google.com/view/bergaultphilippe"
-      link: "https://arxiv.org/abs/2212.00336"
 
     - speaker: Andre Rzym (Man Group)
       date: February 15, 2023
@@ -34,6 +28,12 @@
 - type: Past Talks
   members:
 
+    - speaker: Philippe Bergault (Université Paris Dauphine)
+      date: February 8, 2023
+      title: "Liquidity Providers in Automated Market Makers: a Mean-Variance Analysis of Payoffs"
+      abstract: "We analyze the performance of Liquidity Providers (LPs) providing liquidity to different types of Automated Market Makers (AMMs). This analysis is carried out using a mean / standard deviation viewpoint à la Markowitz, though based on the PnL of LPs compared to that of agents holding coins outside of AMMs. We show that LPs tend to perform poorly in a wide variety of CFMMs under realistic market conditions. We then explore an alternative AMM design in which an oracle feeds the current market exchange rate to the AMM which then quotes a bid/ask spread. This allows us to define an efficient frontier for the performance of LPs in an idealized world with perfect information and to show that the smart use of oracles greatly improves LPs' risk / return profile, even in the case of a lagged oracle. "
+      bio: "https://sites.google.com/view/bergaultphilippe"
+      link: "https://arxiv.org/abs/2212.00336"
 
     - speaker: Marcello Monga (University of Oxford - Oxford-Man Institute)
       date: January 25, 2023
