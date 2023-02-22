@@ -1,22 +1,12 @@
 - type: Future Talks
   members:
-
-
-
-    - speaker: Andre Rzym (Man Group)
-      date: February 15, 2023
-      title: "Crypto, is the Alpha worth the Pain?"
-      abstract: "We describe our experience of, and observations on, the cryptocurrency space from the perspective of a regulated investment manager. We discuss the immaturity of the space, consider the impact of high volatility, and describe how the product development process is very different to other asset classes."
-      bio: "Partner and Portfolio Manager, Man AHL."
-      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4124576"
-
     - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
       date: February 22, 2023
-      title: "Mining Pool and Centralization in Proof-of-Work Equipped Blockchain"
-      abstract: "Mining in isolation is no longer possible in popular Proof-of-Work blockchains these days. Miners join mining pools to mitigate the financial risk induced by mining activity. The presentation focuses on mining pools that apply the Pay-per-Share reward system. A value function based on the surplus of miners and pool managers is defined to better understand the agent's decision whether or not to join a mining pool. Will these interactions between miners and pool managers result in a balanced situation in terms of distribution of computing power between mining pools?"
+      title: "Stochastic models for blockchain analysis"
+      abstract: "A blockchain is a distributed ledger maintained by achieving consensus in a P2P network. This talk focuses on the security of Proof-of-Work blockchains, more specifically on an attack called double spending. We first introduce some blockchain concepts along with a description of the Proof-of-Work protocol before setting up a mathematical model to compute the likelihood of a successful double spending attack."
       bio: "http://pierre-olivier.goffard.me/"
       link: ""
-
+ 
     - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
       date: March 1, 2023
       title: "DeFi: Data-Driven Characterisation of Uniswap v3 Ecosystem & an Ideal Crypto Law for Liquidity Pools"
@@ -27,6 +17,12 @@
 
 - type: Past Talks
   members:
+    - speaker: Andre Rzym (Man Group)
+      date: February 15, 2023
+      title: "Crypto, is the Alpha worth the Pain?"
+      abstract: "We describe our experience of, and observations on, the cryptocurrency space from the perspective of a regulated investment manager. We discuss the immaturity of the space, consider the impact of high volatility, and describe how the product development process is very different to other asset classes."
+      bio: "Partner and Portfolio Manager, Man AHL."
+      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4124576"
 
     - speaker: Philippe Bergault (Université Paris Dauphine)
       date: February 8, 2023
@@ -95,3 +91,4 @@
     
 
  
+
