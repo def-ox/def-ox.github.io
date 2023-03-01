@@ -1,5 +1,29 @@
 - type: Future Talks
   members:
+
+    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
+      date: March 1, 2023
+      title: "DeFi: Data-Driven Characterisation of Uniswap v3 Ecosystem & an Ideal Crypto Law for Liquidity Pools"
+      abstract: "Uniswap is a Constant Product Market Maker built around liquidity pools, where pairs of tokens are exchanged subject to a fee that is proportional to the size of transactions. At the time of writing, there exist more than 6,000 pools associated with Uniswap v3, implying that empirical investigations on the full ecosystem can easily become computationally expensive. Thus, we propose a systematic workflow to extract and analyse a meaningful but computationally tractable sub-universe of liquidity pools. Leveraging on the 34 pools found relevant for the six-months time window January-June 2022, we then investigate the related liquidity consumption behaviour of market participants. We propose to represent each liquidity taker by a suitably constructed transaction graph, which is a fully connected network where nodes are the liquidity taker’s executed transactions, and edges contain weights encoding the time elapsed between any two transactions. We extend the NLP-inspired graph2vec algorithm to the weighted undirected setting, and employ it to obtain an embedding of the set of graphs. This embedding allows us to extract seven clusters of liquidity takers, with equivalent behavioural patters and interpretable trading preferences. We conclude our work by testing for relationships between the characteristic mechanisms of each pool, i.e. liquidity provision, consumption, and price variation. We introduce a related ideal crypto law, inspired from the ideal gas law of thermodynamics, and demonstrate that pools adhering to this law are healthier trading venues in terms of sensitivity of liquidity and agents’ activity. Regulators and practitioners could benefit from our model by developing related pool health monitoring tools."
+      bio: "Deborah Miori is a Dphil candidate at University of Oxford."
+      link: "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4307924"
+    - speaker: Omer Suleman  (Haruko)
+      date: March 8, 2023
+      title: ""
+      abstract: ""
+      bio: ""
+      link: ""
+    - speaker: Heimbach Lioba (ETH Zurich)
+      date: April 19, 2023
+      title: "Turmoil in DeFi Lending Markets"
+      abstract: "The merge marked the Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS). However, ahead of the merge a fraction of the Ethereum ecosystem announced plans of continuing with a PoW chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow. In November 2022, Avi Eisenberg performed an attack on AAVE. Eisenberg attempted to short the CRV token by using funds borrowed on the protocol to artificially deflate the value of CRV. While the attack was ultimately unsuccessful, it left the AAVE community scared and even raised question marks regarding the feasibility of large lending platforms under decentralized governance. Both events expose a predicament of DeFi lending protocols: limit the scope or compromise on 'decentralization'."
+      bio: "Distributed Computing Group at ETH."
+      link: "https://arxiv.org/abs/2302.04068"
+
+
+
+- type: Past Talks
+  members:
     - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
       date: February 22, 2023
       title: "Stochastic models for blockchain analysis"
@@ -7,16 +31,6 @@
       bio: "http://pierre-olivier.goffard.me/"
       link: ""
  
-    - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
-      date: March 1, 2023
-      title: "DeFi: Data-Driven Characterisation of Uniswap v3 Ecosystem & an Ideal Crypto Law for Liquidity Pools"
-      abstract: "Uniswap is a Constant Product Market Maker built around liquidity pools, where pairs of tokens are exchanged subject to a fee that is proportional to the size of transactions. At the time of writing, there exist more than 6,000 pools associated with Uniswap v3, implying that empirical investigations on the full ecosystem can easily become computationally expensive. Thus, we propose a systematic workflow to extract and analyse a meaningful but computationally tractable sub-universe of liquidity pools. Leveraging on the 34 pools found relevant for the six-months time window January-June 2022, we then investigate the related liquidity consumption behaviour of market participants. We propose to represent each liquidity taker by a suitably constructed transaction graph, which is a fully connected network where nodes are the liquidity taker’s executed transactions, and edges contain weights encoding the time elapsed between any two transactions. We extend the NLP-inspired graph2vec algorithm to the weighted undirected setting, and employ it to obtain an embedding of the set of graphs. This embedding allows us to extract seven clusters of liquidity takers, with equivalent behavioural patters and interpretable trading preferences. We conclude our work by testing for relationships between the characteristic mechanisms of each pool, i.e. liquidity provision, consumption, and price variation. We introduce a related ideal crypto law, inspired from the ideal gas law of thermodynamics, and demonstrate that pools adhering to this law are healthier trading venues in terms of sensitivity of liquidity and agents’ activity. Regulators and practitioners could benefit from our model by developing related pool health monitoring tools."
-      bio: "Deborah Miori is a Dphil candidate at University of Oxford."
-      link: "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4307924"
-
-
-- type: Past Talks
-  members:
     - speaker: Andre Rzym (Man Group)
       date: February 15, 2023
       title: "Crypto, is the Alpha worth the Pain?"
