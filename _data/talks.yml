@@ -2,12 +2,6 @@
   members:
 
 
-    - speaker: Omer Suleman  (Haruko)
-      date: March 8, 2023
-      title: "Challenges in AMM Design and Implementation – A Platypus Case Study"
-      abstract: "Automated Market Maker (AMM) platforms have become a core pillar within the cryptocurrency ecosystem, executing trades according to code and mathematical models that are publicly available and without the need for human intervention. The 'code is law' premise has provided considerable economic benefits but has also produced new forms of market vulnerabilities through improperly implemented code or mathematical algorithms with unexpected behaviours. We present several such instances identified by Haruko during a Spring 2022 analysis of the code base and White/Yellow Papers of several prominent AMMs, with primary focus on the Platypus (http://platypus.finance) AMM developed on the Avalanche blockchain. Platypus uses 'one sided liquidity', a novel mathematical approach distinct from the more common 'Constant Function' AMMs. We review this framework, including its fees, incentives, and anti-arbitrage penalties, before demonstrating that, despite such penalties, there exists an arbitrage vulnerability. We also identify, through numerical methods, the minimum swap fees required to block this arbitrage route – this result allowed the developers to address this vulnerability in the short term, until an update to platform's arbitrage protection can be developed."
-      bio: ""
-      link: ""
     - speaker: Heimbach Lioba (ETH Zurich)
       date: April 19, 2023
       title: "Turmoil in DeFi Lending Markets"
