@@ -27,6 +27,12 @@ Technology is reshaping the future of the financial landscape and challenging tr
       {% if talk.link %}
       <summary><a href="{{ talk.link }}">Link to paper</a> </summary>
       {% endif %}
+      {% if talk.link2 %}
+      <summary><a href="{{ talk.link2 }}">Link to second paper</a> </summary>
+      {% endif %}
+      {% if talk.link3 %}
+      <summary><a href="{{ talk.link3 }}">Link to third paper</a> </summary>
+      {% endif %}
     {% endif %}
   </div>
   {% endif %}
