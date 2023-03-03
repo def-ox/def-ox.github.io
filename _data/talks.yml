@@ -17,9 +17,17 @@
     - speaker: Bhaskar Krishnamachari (USC Viterbi School of Engineering)
       date: April 26, 2023
       title: "Dynamic Curves: Enhancing Decentralized Autonomous Exchanges"
-      abstract: "Cryptocurrency exchanges based on curve-based automated market makers have been a major development in decentralized finance (DeFi) because they enable efficient, secure, low-friction conversions between different cryptocurrencies. This research talk will explore the potential of dynamic AMM curves, optimal trading on such dynamic AMM curves, and the use of reinforcement learning to enhance AMMs. We will describe how dynamic curves enable autonomous exchanges to maintain a liquidity pool that continuously adjusts to the market price, and discuss how optimal trading policies can be derived for such a dynamic AMM. We will also discuss how a reinforcement learning agent can be used to optimize fees on automated market maker protocols. "
+      abstract: """Cryptocurrency exchanges based on curve-based automated market makers have been a major development in decentralized finance (DeFi) because they enable efficient, secure, low-friction conversions between different cryptocurrencies. This research talk will explore the potential of dynamic AMM curves, optimal trading on such dynamic AMM curves, and the use of reinforcement learning to enhance AMMs. We will describe how dynamic curves enable autonomous exchanges to maintain a liquidity pool that continuously adjusts to the market price, and discuss how optimal trading policies can be derived for such a dynamic AMM. We will also discuss how a reinforcement learning agent can be used to optimize fees on automated market maker protocols.
+      The talk will cover the results in
+
+      B. Krishnamachari, Q. Feng, E. Grippo, “Dynamic Curves for Decentralized Autonomous Cryptocurrency Exchanges“, Fourth International Symposium on Foundations and Applications of Blockchain, UC Davis, May 7, 2021 https://anrg.usc.edu/www/papers/Dynamiccurves.pdf
+
+      S. Wang and B. Krishnamachari, “ Optimal Trading on a Dynamic Curve Automated Market Maker ” IEEE International Conference on Blockchain and Cryptocurrency (ICBC), 2022. https://github.com/ANRGUSC/Optimal_Trading_Dynamic_AMM/blob/main/Optimal%20Trading%20on%20a%20Dynamic%20Curve%20Automated.pdf
+
+      D. Churiwala, B. Krishnamachari, "QLAMMP: A Q-Learning Agent for Optimizing Fees on Automated Market Making Protocols," ArXiV preprint, 2022.  https://arxiv.org/abs/2211.14977
+      """
       bio: "Bhaskar Krishnamachari is a Professor of Electrical and Computer Engineering at the USC Viterbi School of Engineering. His research spans the design and evaluation of algorithms, protocols, and applications for wireless networks, distributed systems, and the internet of things. He is the co-author of more than 300 technical papers, and 3 books, that have been collectively cited more than 30,000 times. He has received best paper awards at IPSN (2004, 2010), Mobicom (2010), and VNC (2021). He is an IEEE Fellow."
-      link: "https://anrg.usc.edu/www/papers/Dynamiccurves.pdf, https://github.com/ANRGUSC/Optimal_Trading_Dynamic_AMM/blob/main/Optimal%20Trading%20on%20a%20Dynamic%20Curve%20Automated.pdf, https://arxiv.org/abs/2211.14977"
+      link: ""
 
 
 - type: Past Talks
