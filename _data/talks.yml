@@ -4,8 +4,8 @@
 
     - speaker: Omer Suleman  (Haruko)
       date: March 8, 2023
-      title: ""
-      abstract: ""
+      title: "Challenges in AMM Design and Implementation – A Platypus Case Study"
+      abstract: "Automated Market Maker (AMM) platforms have become a core pillar within the cryptocurrency ecosystem, executing trades according to code and mathematical models that are publicly available and without the need for human intervention. The "code is law" premise has provided considerable economic benefits but has also produced new forms of market vulnerabilities through improperly implemented code or mathematical algorithms with unexpected behaviours. We present several such instances identified by Haruko during a Spring 2022 analysis of the code base and White/Yellow Papers of several prominent AMMs, with primary focus on the Platypus (http://platypus.finance) AMM developed on the Avalanche blockchain. Platypus uses "one sided liquidity", a novel mathematical approach distinct from the more common "Constant Function" AMMs. We review this framework, including its fees, incentives, and anti-arbitrage penalties, before demonstrating that, despite such penalties, there exists an arbitrage vulnerability. We also identify, through numerical methods, the minimum swap fees required to block this arbitrage route – this result allowed the developers to address this vulnerability in the short term, until an update to platform's arbitrage protection can be developed."
       bio: ""
       link: ""
     - speaker: Heimbach Lioba (ETH Zurich)
@@ -17,19 +17,17 @@
     - speaker: Bhaskar Krishnamachari (USC Viterbi School of Engineering)
       date: April 26, 2023
       title: "Dynamic Curves: Enhancing Decentralized Autonomous Exchanges"
-      abstract: "Cryptocurrency exchanges based on curve-based automated market makers have been a major development in decentralized finance (DeFi) because they enable efficient, secure, low-friction conversions between different cryptocurrencies. This research talk will explore the potential of dynamic AMM curves, optimal trading on such dynamic AMM curves, and the use of reinforcement learning to enhance AMMs. We will describe how dynamic curves enable autonomous exchanges to maintain a liquidity pool that continuously adjusts to the market price, and discuss how optimal trading policies can be derived for such a dynamic AMM. We will also discuss how a reinforcement learning agent can be used to optimize fees on automated market maker protocols.
+      abstract: 'Cryptocurrency exchanges based on curve-based automated market makers have been a major development in decentralized finance (DeFi) because they enable efficient, secure, low-friction conversions between different cryptocurrencies. This research talk will explore the potential of dynamic AMM curves, optimal trading on such dynamic AMM curves, and the use of reinforcement learning to enhance AMMs. We will describe how dynamic curves enable autonomous exchanges to maintain a liquidity pool that continuously adjusts to the market price, and discuss how optimal trading policies can be derived for such a dynamic AMM. We will also discuss how a reinforcement learning agent can be used to optimize fees on automated market maker protocols.
       <br><br>The talk will cover the results in
       <br><br>
       B. Krishnamachari, Q. Feng, E. Grippo, Dynamic Curves for Decentralized Autonomous Cryptocurrency Exchanges, Fourth International Symposium on Foundations and Applications of Blockchain, UC Davis, May 7, 2021 
-      <br><a href="https://anrg.usc.edu/www/papers/Dynamiccurves.pdf">link</a>     
+      <br><a href="https://anrg.usc.edu/www/papers/Dynamiccurves.pdf">link</a>
       <br><br>
       S. Wang and B. Krishnamachari, Optimal Trading on a Dynamic Curve Automated Market Maker, IEEE International Conference on Blockchain and Cryptocurrency (ICBC), 2022. 
       <br><a href="https://github.com/ANRGUSC/Optimal_Trading_Dynamic_AMM/blob/main/Optimal%20Trading%20on%20a%20Dynamic%20Curve%20Automated.pdf">link</a>
       <br><br>
       D. Churiwala, B. Krishnamachari, QLAMMP: A Q-Learning Agent for Optimizing Fees on Automated Market Making Protocols, ArXiV preprint, 2022.  
-      <br><a href="https://arxiv.org/abs/2211.14977">link</a>
-      
-      "
+      <br><a href="https://arxiv.org/abs/2211.14977">link</a>'
       bio: "Bhaskar Krishnamachari is a Professor of Electrical and Computer Engineering at the USC Viterbi School of Engineering. His research spans the design and evaluation of algorithms, protocols, and applications for wireless networks, distributed systems, and the internet of things. He is the co-author of more than 300 technical papers, and 3 books, that have been collectively cited more than 30,000 times. He has received best paper awards at IPSN (2004, 2010), Mobicom (2010), and VNC (2021). He is an IEEE Fellow."
       link: ""
 
