@@ -1,20 +1,32 @@
 - type: Future Talks
   members:
-
-
-    - speaker: Omer Suleman  (Haruko)
-      date: March 8, 2023
-      title: "Challenges in AMM Design and Implementation – A Platypus Case Study"
-      abstract: "Automated Market Maker (AMM) platforms have become a core pillar within the cryptocurrency ecosystem, executing trades according to code and mathematical models that are publicly available and without the need for human intervention. The - code is law - premise has provided considerable economic benefits but has also produced new forms of market vulnerabilities through improperly implemented code or mathematical algorithms with unexpected behaviours. We present several such instances identified by Haruko during a Spring 2022 analysis of the code base and White/Yellow Papers of several prominent AMMs, with primary focus on the Platypus (http://platypus.finance) AMM developed on the Avalanche blockchain. Platypus uses -one sided liquidity-, a novel mathematical approach distinct from the more common -Constant Function- AMMs. We review this framework, including its fees, incentives, and anti-arbitrage penalties, before demonstrating that, despite such penalties, there exists an arbitrage vulnerability. We also identify, through numerical methods, the minimum swap fees required to block this arbitrage route – this result allowed the developers to address this vulnerability in the short term, until an update to platform's arbitrage protection can be developed."
+    - speaker: Rafael Nitchai (Universidade do Porto)
+      date: May 10, 2023
+      title: "FPCS: Solving n-spends on a UTXO-based DLT"
+      abstract: "The fast probabilistic consensus (FPC) is a leaderless voting consensus protocol that allows a set of nodes to agree on a value of a single bit. FPC is robust and efficient in Byzantine infrastructures and presents a low communicational complexity. In this paper, we introduce a modification of the Fast Probabilistic Consensus protocol (FPC) capable of achieving consensus on a maximal independent set of a graph —hence named Fast Probabilistic Consensus on a Set (FPCS)— that still preserves the robustness, effectiveness, and low communicational complexity of FPC. This paper shows that FPCS effectively resolves the problem (with high probability) of achieving consensus on a maximal independent set of a graph of conflicts (i.e. a maximal set of nonconflicting transactions) in the particular case of n-spend conflicts, even when a significant (but not major) proportion of nodes is malicious. These nodes intend to delay the consensus or even completely break it (meaning that nodes would arrive at different conclusions about the maximal independent set). Furthermore, the paper provides explicit estimates on the probability that the protocol finalizes in the consensus state in a given time. Our study refers to a specific implementation of cryptocurrencies, but the results hold for more general majority models."
       bio: ""
-      link: "https://www.haruko.io/blogs/defi-automated-market-makers"
-      link2: "https://www.haruko.io/blogs/helping-platypus-stay-arbitrage-free"
-    - speaker: Heimbach Lioba (ETH Zurich)
-      date: April 19, 2023
-      title: "Turmoil in DeFi Lending Markets"
-      abstract: "The merge marked the Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS). However, ahead of the merge a fraction of the Ethereum ecosystem announced plans of continuing with a PoW chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow. In November 2022, Avi Eisenberg performed an attack on AAVE. Eisenberg attempted to short the CRV token by using funds borrowed on the protocol to artificially deflate the value of CRV. While the attack was ultimately unsuccessful, it left the AAVE community scared and even raised question marks regarding the feasibility of large lending platforms under decentralized governance. Both events expose a predicament of DeFi lending protocols: limit the scope or compromise on 'decentralization'."
-      bio: "Distributed Computing Group at ETH."
-      link: "https://arxiv.org/abs/2302.04068"
+      link: ""
+      
+    - speaker: Andrei Lyashenko (Universidade do Porto)
+      date: May 17, 2023
+      title: "TBD"
+      abstract: "TBD"
+      bio: "Andrei Lyashenko is Head of Quantitative Research at Quantitative Risk Management (QRM), the world's leading enterprise risk management consulting firm. (https://www.iit.edu/directory/people/andrei-lyashenko)"
+      link: ""
+    
+    
+
+
+- type: Past Talks
+  members:
+    
+    - speaker: Claudio Tessone (University of Zurich)
+      date: April 26, 2023
+      title: "From self-organisation to rug pulls in UniSwap"
+      abstract: "UniSwap is the largest decentralised exchange (DEX) in terms of market capitalisation, and is widely recognised for introducing an Automated Market Maker (AMM) mechanism that provides liquidity and eliminates counterparty risk. However, UniSwap also poses several threats by itself due to its lack of regulation and operations scrutiny. Because of its decentralised nature, anyone can take two tokens with arbitrary supplies and pair them to form a liquidity pool (LP) on UniSwap; this LP allows the creator and other users to buy, sell or provide liquidity of any amount of tokens. These characteristics sometimes can lead to deceive and harm innocent users. In this research, we focus on \textit{Rug-pull} attack and its effect on the liquidity of LPs and the whole Uniswap market, we detect Rug-pull events by retrieving and replaying each mint, swap, and burn event, and calculating the change ratio of the reserve of the primary tokens include WETH, USDT, USDC and DAI. Our results show that despite UniSwap being the largest and most popular DeFi platform, it still exhibits several anomalies in terms of liquidity, price, and attacks, including numerous LPs with extremely low total value locked (TVL) and tokens with extremely high or low prices, Rug-pull is a prevalent attack on Uniswap which not only directly causes many LP's price and liquidity anomalies but also has a significant impact on the stability and connectivity of the liquidity pool network. We also analyse the striking statistical regularities of the Liquidity network in UniSwap, a novel construct that allows to foresee the existence of simple mechanisms that drive the growth and sustainability of this decentralised marketplace."
+      bio: "Claudio J. Tessone is Professor of Blockchain and Distributed Ledger Technologies at the Informatics Department, University of Zurich. He is co-founder and Chairman of the UZH Blockchain Center. He holds a PhD in Physics (on complex systems) and an Habilitation on Complex socio-economic systems from ETH Zurich. He is an expert in the modelling of complex socio-economic, and socio-technical systems from an interdisciplinary perspective. He is interested in the link between microscopic agent behaviour and the rules these agents abide to, and the global, emergent properties of socio-economic and socio-technical systems. Blockchain-based systems and cryptocurrencies are the main pillar of his research (being among the first to study them). This includes crypoeconomics (from financial aspects to meso- and macro- properties, such as withstanding, emergent centralisation), big-data blockchain analytics and forensics, design of blockchain-based systems, and characterisation of economic incentives that are present (by design or set inadvertently) in them He is the director of the Summer School: Deep Dive into Blockchain and of the Certificate of Advanced Studies on Blockchain at the University of Zurich."
+      link: "https://www.mdpi.com/1099-4300/24/8/1048"
+      
     - speaker: Bhaskar Krishnamachari (USC Viterbi School of Engineering)
       date: April 26, 2023
       title: "Dynamic Curves: Enhancing Decentralized Autonomous Exchanges"
@@ -23,10 +35,19 @@
       link: "https://anrg.usc.edu/www/papers/Dynamiccurves.pdf"
       link2: "https://ieeexplore.ieee.org/abstract/document/9805489/"
       link3: "https://arxiv.org/abs/2211.14977"
-
-
-- type: Past Talks
-  members:
+    - speaker: Heimbach Lioba (ETH Zurich)
+      date: April 19, 2023
+      title: "Turmoil in DeFi Lending Markets"
+      abstract: "The merge marked the Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS). However, ahead of the merge a fraction of the Ethereum ecosystem announced plans of continuing with a PoW chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow. In November 2022, Avi Eisenberg performed an attack on AAVE. Eisenberg attempted to short the CRV token by using funds borrowed on the protocol to artificially deflate the value of CRV. While the attack was ultimately unsuccessful, it left the AAVE community scared and even raised question marks regarding the feasibility of large lending platforms under decentralized governance. Both events expose a predicament of DeFi lending protocols: limit the scope or compromise on 'decentralization'."
+      bio: "Distributed Computing Group at ETH."
+      link: "https://arxiv.org/abs/2302.04068"
+    - speaker: Omer Suleman  (Haruko)
+      date: March 8, 2023
+      title: "Challenges in AMM Design and Implementation – A Platypus Case Study"
+      abstract: "Automated Market Maker (AMM) platforms have become a core pillar within the cryptocurrency ecosystem, executing trades according to code and mathematical models that are publicly available and without the need for human intervention. The - code is law - premise has provided considerable economic benefits but has also produced new forms of market vulnerabilities through improperly implemented code or mathematical algorithms with unexpected behaviours. We present several such instances identified by Haruko during a Spring 2022 analysis of the code base and White/Yellow Papers of several prominent AMMs, with primary focus on the Platypus (http://platypus.finance) AMM developed on the Avalanche blockchain. Platypus uses -one sided liquidity-, a novel mathematical approach distinct from the more common -Constant Function- AMMs. We review this framework, including its fees, incentives, and anti-arbitrage penalties, before demonstrating that, despite such penalties, there exists an arbitrage vulnerability. We also identify, through numerical methods, the minimum swap fees required to block this arbitrage route – this result allowed the developers to address this vulnerability in the short term, until an update to platform's arbitrage protection can be developed."
+      bio: ""
+      link: "https://www.haruko.io/blogs/defi-automated-market-makers"
+      link2: "https://www.haruko.io/blogs/helping-platypus-stay-arbitrage-free"
     - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
       date: March 1, 2023
       title: "DeFi: Data-Driven Characterisation of Uniswap v3 Ecosystem & an Ideal Crypto Law for Liquidity Pools"
