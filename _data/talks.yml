@@ -11,19 +11,7 @@
       date: May 17, 2023
       title: "Modeling Yield Curves with Factor HJM"
       abstract: "We introduce a novel risk-neutral interest rate modeling framework based on the factor modeling approach widely used to model yield curves in real-world applications. The new modeling framework combines the simplicity, intuitiveness, and computational efficiency of the factor modeling approach with the no-arbitrage rigor of pricing term structure models. Its constructive nature makes it a convenient practical tool for model development and brings clarity and intuition to the yield curve modeling process."
-      bio: """Andrei Lyashenko is the head of Market Risk and Pricing Models at the Quantitative
-            Risk Management (QRM), Inc. in Chicago. His team is responsible for research,
-            implementation and support of pricing and risk models across multiple asset classes. In
-            November 2019, he was awarded the prestigious Quant of the Year award, jointly with
-            Fabio Mercurio from Bloomberg, L.P., for their Risk Magazine paper on modeling
-            backward-looking rates.
-            Andrei is also adjunct professor at the Illinois Institute of Technology. Before joining the
-            QRM in 1997, Andrei was on the mathematical faculty at the University of Illinois at
-            Chicago and Iowa State University. Prior to coming to the US, he conducted academic
-            research in applied math in Russia, Japan and Italy and published numerous research
-            papers in the area of fluid stability in major mathematical journals. He holds a BSc in
-            Mathematics from the Novosibirsk State University, Russia and a PhD in Mathematics
-            from the Russian Academy of Science."""
+      bio: "Andrei Lyashenko is the head of Market Risk and Pricing Models at the Quantitative Risk Management (QRM), Inc. in Chicago. His team is responsible for research, implementation and support of pricing and risk models across multiple asset classes. In November 2019, he was awarded the prestigious Quant of the Year award, jointly with Fabio Mercurio from Bloomberg, L.P., for their Risk Magazine paper on modeling backward-looking rates. Andrei is also adjunct professor at the Illinois Institute of Technology. Before joining the QRM in 1997, Andrei was on the mathematical faculty at the University of Illinois at Chicago and Iowa State University. Prior to coming to the US, he conducted academic research in applied math in Russia, Japan and Italy and published numerous research papers in the area of fluid stability in major mathematical journals. He holds a BSc in Mathematics from the Novosibirsk State University, Russia and a PhD in Mathematics from the Russian Academy of Science."
       link: ""
 
     - speaker: Liyi Zhou (Imperial College)
