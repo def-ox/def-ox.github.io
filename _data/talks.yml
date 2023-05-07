@@ -7,12 +7,33 @@
       bio: ""
       link: ""
       
-    - speaker: Andrei Lyashenko (Illinois Institute of Technology)
+    - speaker: Andrei Lyashenko (QRM, Illinois Institute of Technology)
       date: May 17, 2023
-      title: "TBD"
-      abstract: "TBD"
-      bio: "Andrei Lyashenko is Head of Quantitative Research at Quantitative Risk Management (QRM), the world's leading enterprise risk management consulting firm. (https://www.iit.edu/directory/people/andrei-lyashenko)"
+      title: "Modeling Yield Curves with Factor HJM"
+      abstract: "We introduce a novel risk-neutral interest rate modeling framework based on the factor modeling approach widely used to model yield curves in real-world applications. The new modeling framework combines the simplicity, intuitiveness, and computational efficiency of the factor modeling approach with the no-arbitrage rigor of pricing term structure models. Its constructive nature makes it a convenient practical tool for model development and brings clarity and intuition to the yield curve modeling process."
+      bio: """Andrei Lyashenko is the head of Market Risk and Pricing Models at the Quantitative
+            Risk Management (QRM), Inc. in Chicago. His team is responsible for research,
+            implementation and support of pricing and risk models across multiple asset classes. In
+            November 2019, he was awarded the prestigious Quant of the Year award, jointly with
+            Fabio Mercurio from Bloomberg, L.P., for their Risk Magazine paper on modeling
+            backward-looking rates.
+            Andrei is also adjunct professor at the Illinois Institute of Technology. Before joining the
+            QRM in 1997, Andrei was on the mathematical faculty at the University of Illinois at
+            Chicago and Iowa State University. Prior to coming to the US, he conducted academic
+            research in applied math in Russia, Japan and Italy and published numerous research
+            papers in the area of fluid stability in major mathematical journals. He holds a BSc in
+            Mathematics from the Novosibirsk State University, Russia and a PhD in Mathematics
+            from the Russian Academy of Science."""
       link: ""
+
+    - speaker: Liyi Zhou (Imperial College)
+      date: May 31, 2023
+      title: "We All Know That Audits Aren't Enough - Reshaping Blockchain Security"
+      abstract: "While the DeFi ecosystem continues to grow, it remains vulnerable to a myriad of attacks and security threats. Traditional approaches, such as audits, have proven insufficient to fully secure the ecosystem. In this talk, Liyi Zhou will present a 0-to-1 paradigm shift to reshaping blockchain security. Zhou will introduce real-time Intrusion Detection and Prevention Systems (IDS/IPS) that are poised to revolutionize DeFi security. By addressing both the execution of DeFi attacks and the development of cutting-edge defensive mechanisms, Zhou aims to catalyze a new era of security and resilience within the DeFi ecosystem."
+      bio: "Liyi Zhou is a fourth-year Ph.D. candidate at Imperial College London, working under the guidance of Associate Professor Arthur Gervais. In close collaboration with fellow researcher Kaihua Qin, Zhou's research focuses on blockchain technology, decentralized finance, machine learning, and cybersecurity. Together, they have published numerous top-tier security conference papers, with Zhou contributing to over 15 papers in total during his Ph.D. journey. Driven by a passion for innovation, Zhou is committed go beyond incremental improvements in research to pioneering transformative 0-to-1 solutions and fostering collaboration between academia and practitioners."
+      link: "https://arxiv.org/abs/2101.08778"
+      link2: "https://arxiv.org/abs/2304.12749"
+      link3: "https://arxiv.org/abs/2103.02228"
     
     
 
