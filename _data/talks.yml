@@ -1,18 +1,17 @@
 - type: Future Talks
   members:
-    - speaker: Rafael Nitchai (Universidade do Porto)
-      date: May 10, 2023
-      title: "FPCS: Solving n-spends on a UTXO-based DLT"
-      abstract: "The fast probabilistic consensus (FPC) is a leaderless voting consensus protocol that allows a set of nodes to agree on a value of a single bit. FPC is robust and efficient in Byzantine infrastructures and presents a low communicational complexity. In this paper, we introduce a modification of the Fast Probabilistic Consensus protocol (FPC) capable of achieving consensus on a maximal independent set of a graph —hence named Fast Probabilistic Consensus on a Set (FPCS)— that still preserves the robustness, effectiveness, and low communicational complexity of FPC. This paper shows that FPCS effectively resolves the problem (with high probability) of achieving consensus on a maximal independent set of a graph of conflicts (i.e. a maximal set of nonconflicting transactions) in the particular case of n-spend conflicts, even when a significant (but not major) proportion of nodes is malicious. These nodes intend to delay the consensus or even completely break it (meaning that nodes would arrive at different conclusions about the maximal independent set). Furthermore, the paper provides explicit estimates on the probability that the protocol finalizes in the consensus state in a given time. Our study refers to a specific implementation of cryptocurrencies, but the results hold for more general majority models."
-      bio: ""
-      link: ""
-      
-    - speaker: Andrei Lyashenko (QRM, Illinois Institute of Technology)
-      date: May 17, 2023
-      title: "Modeling Yield Curves with Factor HJM"
-      abstract: "We introduce a novel risk-neutral interest rate modeling framework based on the factor modeling approach widely used to model yield curves in real-world applications. The new modeling framework combines the simplicity, intuitiveness, and computational efficiency of the factor modeling approach with the no-arbitrage rigor of pricing term structure models. Its constructive nature makes it a convenient practical tool for model development and brings clarity and intuition to the yield curve modeling process."
-      bio: "Andrei Lyashenko is the head of Market Risk and Pricing Models at the Quantitative Risk Management (QRM), Inc. in Chicago. His team is responsible for research, implementation and support of pricing and risk models across multiple asset classes. In November 2019, he was awarded the prestigious Quant of the Year award, jointly with Fabio Mercurio from Bloomberg, L.P., for their Risk Magazine paper on modeling backward-looking rates. Andrei is also adjunct professor at the Illinois Institute of Technology. Before joining the QRM in 1997, Andrei was on the mathematical faculty at the University of Illinois at Chicago and Iowa State University. Prior to coming to the US, he conducted academic research in applied math in Russia, Japan and Italy and published numerous research papers in the area of fluid stability in major mathematical journals. He holds a BSc in Mathematics from the Novosibirsk State University, Russia and a PhD in Mathematics from the Russian Academy of Science."
-      link: ""
+    
+    
+
+- type: Past Talks
+  members:
+    - speaker: Andreas Park (University of Toronto)
+      date: June 14, 2023
+      title: "Learning from DeFi: Would Automated Market Makers Improve Equity Trading?"
+      abstract: "We investigate the potential for automated market makers (AMMs) to be economically viable in and improve traditional financial markets. AMMs are a new type of trading institution that have emerged in the world of crypto-assets and process a significant portion of global crypto trading volume. The current trend of tokenizing assets, the legitimization of crypto-token issuance via the EU's MiCA regulation, and the push by the S.E.C. to change the trading of retail orders presents an opportunity to consider AMMs for traditional markets. Our approach is to determine the parameters that would allow liquidity providers to profitably contribute to an AMM and calculate, based on U.S.\ equity trading data, if liquidity demanders would benefit from using the AMM for these parameters. Our analysis suggests that properly designed AMMs could save U.S. investors about 30% of annual transaction costs. The source for these savings is twofold: AMMs allow better risk sharing for liquidity providers and they use locked-up capital that otherwise sits idly at brokerages. The introduction of AMMs in traditional markets could particularly improve the liquidity and trading cost issues faced by small firms, allowing them to attract more investors and capital."
+      bio: Andreas Park is a Professor of Finance at the University of Toronto, appointed to the Rotman School of Management and the Department of Management at UTM. He currently serves as the Research Director at the FinHub, Rotman’s Financial Innovation Lab, he is the co-founder of LedgerHub, the University of Toronto’s blockchain research lab. He has served as a lab economist for the Blockchain stream at the Creative Destruction Lab. Andreas teaches courses on payments innovation, decentralized finance, and financial market trading, and his current research focuses on the economic impact of technological transformations such as blockchain technology. He recently co-authored a design proposal for a central-bank issued digital currency, commissioned by the Bank of Canada. Andreas received his doctorate from the University of Cambridge. His work has been published in top journals in economics and finance including Econometrica, the Journal of Finance, the Journal of Financial Economics, and the Journal of Financial and Quantitative Analysis."
+      link: "https://www.nhh.no/contentassets/4d755c93951f427db3bfbf30037206cf/amm_4_equities_small_oneday-compressed.pdf"
+    
 
     - speaker: Liyi Zhou (Imperial College)
       date: May 31, 2023
@@ -23,14 +22,22 @@
       link2: "https://arxiv.org/abs/2304.12749"
       link3: "https://arxiv.org/abs/2103.02228"
     
-    
+    - speaker: Andrei Lyashenko (QRM, Illinois Institute of Technology)
+      date: May 17, 2023
+      title: "Modeling Yield Curves with Factor HJM"
+      abstract: "We introduce a novel risk-neutral interest rate modeling framework based on the factor modeling approach widely used to model yield curves in real-world applications. The new modeling framework combines the simplicity, intuitiveness, and computational efficiency of the factor modeling approach with the no-arbitrage rigor of pricing term structure models. Its constructive nature makes it a convenient practical tool for model development and brings clarity and intuition to the yield curve modeling process."
+      bio: "Andrei Lyashenko is the head of Market Risk and Pricing Models at the Quantitative Risk Management (QRM), Inc. in Chicago. His team is responsible for research, implementation and support of pricing and risk models across multiple asset classes. In November 2019, he was awarded the prestigious Quant of the Year award, jointly with Fabio Mercurio from Bloomberg, L.P., for their Risk Magazine paper on modeling backward-looking rates. Andrei is also adjunct professor at the Illinois Institute of Technology. Before joining the QRM in 1997, Andrei was on the mathematical faculty at the University of Illinois at Chicago and Iowa State University. Prior to coming to the US, he conducted academic research in applied math in Russia, Japan and Italy and published numerous research papers in the area of fluid stability in major mathematical journals. He holds a BSc in Mathematics from the Novosibirsk State University, Russia and a PhD in Mathematics from the Russian Academy of Science."
+      link: ""
 
+    - speaker: Rafael Nitchai (Universidade do Porto)
+      date: May 10, 2023
+      title: "FPCS: Solving n-spends on a UTXO-based DLT"
+      abstract: "The fast probabilistic consensus (FPC) is a leaderless voting consensus protocol that allows a set of nodes to agree on a value of a single bit. FPC is robust and efficient in Byzantine infrastructures and presents a low communicational complexity. In this paper, we introduce a modification of the Fast Probabilistic Consensus protocol (FPC) capable of achieving consensus on a maximal independent set of a graph —hence named Fast Probabilistic Consensus on a Set (FPCS)— that still preserves the robustness, effectiveness, and low communicational complexity of FPC. This paper shows that FPCS effectively resolves the problem (with high probability) of achieving consensus on a maximal independent set of a graph of conflicts (i.e. a maximal set of nonconflicting transactions) in the particular case of n-spend conflicts, even when a significant (but not major) proportion of nodes is malicious. These nodes intend to delay the consensus or even completely break it (meaning that nodes would arrive at different conclusions about the maximal independent set). Furthermore, the paper provides explicit estimates on the probability that the protocol finalizes in the consensus state in a given time. Our study refers to a specific implementation of cryptocurrencies, but the results hold for more general majority models."
+      bio: ""
+      link: ""
 
-- type: Past Talks
-  members:
-    
     - speaker: Claudio Tessone (University of Zurich)
-      date: April 26, 2023
+      date: May 3, 2023
       title: "From self-organisation to rug pulls in UniSwap"
       abstract: "UniSwap is the largest decentralised exchange (DEX) in terms of market capitalisation, and is widely recognised for introducing an Automated Market Maker (AMM) mechanism that provides liquidity and eliminates counterparty risk. However, UniSwap also poses several threats by itself due to its lack of regulation and operations scrutiny. Because of its decentralised nature, anyone can take two tokens with arbitrary supplies and pair them to form a liquidity pool (LP) on UniSwap; this LP allows the creator and other users to buy, sell or provide liquidity of any amount of tokens. These characteristics sometimes can lead to deceive and harm innocent users. In this research, we focus on \textit{Rug-pull} attack and its effect on the liquidity of LPs and the whole Uniswap market, we detect Rug-pull events by retrieving and replaying each mint, swap, and burn event, and calculating the change ratio of the reserve of the primary tokens include WETH, USDT, USDC and DAI. Our results show that despite UniSwap being the largest and most popular DeFi platform, it still exhibits several anomalies in terms of liquidity, price, and attacks, including numerous LPs with extremely low total value locked (TVL) and tokens with extremely high or low prices, Rug-pull is a prevalent attack on Uniswap which not only directly causes many LP's price and liquidity anomalies but also has a significant impact on the stability and connectivity of the liquidity pool network. We also analyse the striking statistical regularities of the Liquidity network in UniSwap, a novel construct that allows to foresee the existence of simple mechanisms that drive the growth and sustainability of this decentralised marketplace."
       bio: "Claudio J. Tessone is Professor of Blockchain and Distributed Ledger Technologies at the Informatics Department, University of Zurich. He is co-founder and Chairman of the UZH Blockchain Center. He holds a PhD in Physics (on complex systems) and an Habilitation on Complex socio-economic systems from ETH Zurich. He is an expert in the modelling of complex socio-economic, and socio-technical systems from an interdisciplinary perspective. He is interested in the link between microscopic agent behaviour and the rules these agents abide to, and the global, emergent properties of socio-economic and socio-technical systems. Blockchain-based systems and cryptocurrencies are the main pillar of his research (being among the first to study them). This includes crypoeconomics (from financial aspects to meso- and macro- properties, such as withstanding, emergent centralisation), big-data blockchain analytics and forensics, design of blockchain-based systems, and characterisation of economic incentives that are present (by design or set inadvertently) in them He is the director of the Summer School: Deep Dive into Blockchain and of the Certificate of Advanced Studies on Blockchain at the University of Zurich."
@@ -44,12 +51,14 @@
       link: "https://anrg.usc.edu/www/papers/Dynamiccurves.pdf"
       link2: "https://ieeexplore.ieee.org/abstract/document/9805489/"
       link3: "https://arxiv.org/abs/2211.14977"
+
     - speaker: Heimbach Lioba (ETH Zurich)
       date: April 19, 2023
       title: "Turmoil in DeFi Lending Markets"
       abstract: "The merge marked the Ethereum blockchain's transition from proof-of-work (PoW) to proof-of-stake (PoS). However, ahead of the merge a fraction of the Ethereum ecosystem announced plans of continuing with a PoW chain. Owners of ETH - whether their ETH was borrowed or not - would hold the native tokens on each chain. This development alarmed lending protocols. They feared spiking ETH borrowing rates would lead to mass liquidations which could undermine their viability. Thus, the decentralized autonomous organization running the protocols saw no alternative to intervention - restricting users' ability to borrow. In November 2022, Avi Eisenberg performed an attack on AAVE. Eisenberg attempted to short the CRV token by using funds borrowed on the protocol to artificially deflate the value of CRV. While the attack was ultimately unsuccessful, it left the AAVE community scared and even raised question marks regarding the feasibility of large lending platforms under decentralized governance. Both events expose a predicament of DeFi lending protocols: limit the scope or compromise on 'decentralization'."
       bio: "Distributed Computing Group at ETH."
       link: "https://arxiv.org/abs/2302.04068"
+
     - speaker: Omer Suleman  (Haruko)
       date: March 8, 2023
       title: "Challenges in AMM Design and Implementation – A Platypus Case Study"
@@ -57,12 +66,14 @@
       bio: ""
       link: "https://www.haruko.io/blogs/defi-automated-market-makers"
       link2: "https://www.haruko.io/blogs/helping-platypus-stay-arbitrage-free"
+
     - speaker: Deborah Miori (University of Oxford - Oxford-Man Institute)
       date: March 1, 2023
       title: "DeFi: Data-Driven Characterisation of Uniswap v3 Ecosystem & an Ideal Crypto Law for Liquidity Pools"
       abstract: "Uniswap is a Constant Product Market Maker built around liquidity pools, where pairs of tokens are exchanged subject to a fee that is proportional to the size of transactions. At the time of writing, there exist more than 6,000 pools associated with Uniswap v3, implying that empirical investigations on the full ecosystem can easily become computationally expensive. Thus, we propose a systematic workflow to extract and analyse a meaningful but computationally tractable sub-universe of liquidity pools. Leveraging on the 34 pools found relevant for the six-months time window January-June 2022, we then investigate the related liquidity consumption behaviour of market participants. We propose to represent each liquidity taker by a suitably constructed transaction graph, which is a fully connected network where nodes are the liquidity taker’s executed transactions, and edges contain weights encoding the time elapsed between any two transactions. We extend the NLP-inspired graph2vec algorithm to the weighted undirected setting, and employ it to obtain an embedding of the set of graphs. This embedding allows us to extract seven clusters of liquidity takers, with equivalent behavioural patters and interpretable trading preferences. We conclude our work by testing for relationships between the characteristic mechanisms of each pool, i.e. liquidity provision, consumption, and price variation. We introduce a related ideal crypto law, inspired from the ideal gas law of thermodynamics, and demonstrate that pools adhering to this law are healthier trading venues in terms of sensitivity of liquidity and agents’ activity. Regulators and practitioners could benefit from our model by developing related pool health monitoring tools."
       bio: "Deborah Miori is a Dphil candidate at University of Oxford."
       link: "https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4307924"
+      
     - speaker: Pierre-Olivier Goffard (ISFA, Lyon)
       date: February 22, 2023
       title: "Stochastic models for blockchain analysis"
@@ -91,12 +102,6 @@
       bio: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4144743"
       link: ""
 
-    - speaker: Tristan Lim (Nanyang Polytechnic)
-      date: February 1, 2023
-      title: "Predictive Crypto-Asset Automated Market Making Architecture for Decentralized Finance using Deep Reinforcement Learning"
-      abstract: "The study proposes a quote-driven predictive automated market maker (AMM) platform with on-chain custody and settlement functions, alongside off-chain predictive reinforcement learning capabilities to improve liquidity provision of real-world AMMs. The proposed AMM architecture is an augmentation to the Uniswap V3, a cryptocurrency AMM protocol, by utilizing a novel market equilibrium pricing for reduced divergence and slippage loss. Further, the proposed architecture involves a predictive AMM capability, utilizing a deep hybrid Long Short-Term Memory (LSTM) and Q-learning reinforcement learning framework that looks to improve market efficiency through better forecasts of liquidity concentration ranges, so liquidity starts moving to expected concentration ranges, prior to asset price movement, so that liquidity utilization is improved. The augmented protocol framework is expected have practical real-world implications, by (i) reducing divergence loss for liquidity providers, (ii) reducing slippage for crypto-asset traders, while (iii) improving capital efficiency for liquidity provision for the AMM protocol. To our best knowledge, there are no known protocol or literature that are proposing similar deep learning-augmented AMM that achieves similar capital efficiency and loss minimization objectives for practical real-world applications. "
-      bio: "https://www.linkedin.com/in/tristan-lim-82135154/"
-      link: https://arxiv.org/abs/2211.01346
     - speaker: Agostino Capponi (Columbia University)
       date: January 18, 2023
       title: "The Information Content of Blockchain Fees"
