@@ -8,23 +8,6 @@
         link: "https://arxiv.org/abs/2212.03340"
     
 
-
-    - speaker: Olga Klein (Warwick Business School)
-        date: October 18, 2023
-        title: "Blockchain scaling and liquidity concentration on decentralized exchanges"
-        abstract: "Liquidity providers (LPs) on decentralized exchanges (DEXs) can protect themselves from adverse selection risk by updating their positions more frequently. However, repositioning is costly, because LPs have to pay gas fees for each update. We analyze the causal relation between repositioning and liquidity concentration around the market price, using the entry of a blockchain scaling solution, Polygon, as our instrument. Polygon's lower gas fees allow LPs to update more frequently than on Ethereum. Our results demonstrate that higher repositioning intensity and precision lead to greater liquidity concentration, which benefits small trades by reducing their slippage."
-        bio: "Olga is an Assistant Professor of Finance and a research fellow at the Gillmore Center of Financial Technology at Warwick Business School. Olga's research interests are in the areas of market microstructure, algorithmic and high-frequency trading, liquidity, market efficiency and fintech. In particular, she studies the impact of technology on liquidity and efficiency of security prices, both on traditional as well as decentralized exchanges (DEX). In her recent research, she has been investigating how blockchain scaling solutions improve liquidity concentration on the largest DEX, Uniswap v3. Prior to joining WBS, she was a post-doctoral research fellow at E-Finance Lab of the University of Frankfurt. Olga holds a Ph.D. in Finance from the University of Mannheim, Germany. She received her MSc in Finance and Economics from the University of Magdeburg in Germany and her BSc in Economic Theory from the Kyiv-Mohyla Academy in Ukraine."
-        link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475460"
-    
-
-    - speaker: Lorenzo Schoenleber  (Collegio Carlo Alberto)
-        date: November 8, 2023
-        title: "TBD"
-        abstract: "TBD"
-        bio: "Lorenzo is an Assistant Professor at the Collegio Carlo Alberto in Turin. His area of interest is asset pricing, especially within the area of option-implied information, asset management, and DeFi. He is associated with the Fintech & Digital Finance Chair at Paris Dauphine University. He obtained his Ph.D. in Finance at the Frankfurt School of Finance and Management in 2020. He earned his B.Sc. and M.Sc. at the University of Mannheim where he studied Business Mathematics."
-        link: ""
-    
-
     
     
 
