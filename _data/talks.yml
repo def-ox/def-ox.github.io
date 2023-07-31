@@ -1,13 +1,12 @@
 - type: Future Talks
   members:
-
-
-    - speaker: Lorenzo Schoenleber  (Collegio Carlo Alberto)
-        date: November 8, 2023
-        title: "TBD"
-        abstract: "TBD"
-        bio: "Lorenzo is an Assistant Professor at the Collegio Carlo Alberto in Turin. His area of interest is asset pricing, especially within the area of option-implied information, asset management, and DeFi. He is associated with the Fintech & Digital Finance Chair at Paris Dauphine University. He obtained his Ph.D. in Finance at the Frankfurt School of Finance and Management in 2020. He earned his B.Sc. and M.Sc. at the University of Mannheim where he studied Business Mathematics."
-        link: ""
+    - speaker: Andreas Park (University of Toronto)
+      date: June 14, 2023
+      title: "Learning from DeFi: Would Automated Market Makers Improve Equity Trading?"
+      abstract: "We investigate the potential for automated market makers (AMMs) to be economically viable in and improve traditional financial markets. AMMs are a new type of trading institution that have emerged in the world of crypto-assets and process a significant portion of global crypto trading volume. The current trend of tokenizing assets, the legitimization of crypto-token issuance via the EU's MiCA regulation, and the push by the S.E.C. to change the trading of retail orders presents an opportunity to consider AMMs for traditional markets. Our approach is to determine the parameters that would allow liquidity providers to profitably contribute to an AMM and calculate, based on U.S.\ equity trading data, if liquidity demanders would benefit from using the AMM for these parameters. Our analysis suggests that properly designed AMMs could save U.S. investors about 30% of annual transaction costs. The source for these savings is twofold: AMMs allow better risk sharing for liquidity providers and they use locked-up capital that otherwise sits idly at brokerages. The introduction of AMMs in traditional markets could particularly improve the liquidity and trading cost issues faced by small firms, allowing them to attract more investors and capital."
+      bio: Andreas Park is a Professor of Finance at the University of Toronto, appointed to the Rotman School of Management and the Department of Management at UTM. He currently serves as the Research Director at the FinHub, Rotman’s Financial Innovation Lab, he is the co-founder of LedgerHub, the University of Toronto’s blockchain research lab. He has served as a lab economist for the Blockchain stream at the Creative Destruction Lab. Andreas teaches courses on payments innovation, decentralized finance, and financial market trading, and his current research focuses on the economic impact of technological transformations such as blockchain technology. He recently co-authored a design proposal for a central-bank issued digital currency, commissioned by the Bank of Canada. Andreas received his doctorate from the University of Cambridge. His work has been published in top journals in economics and finance including Econometrica, the Journal of Finance, the Journal of Financial Economics, and the Journal of Financial and Quantitative Analysis."
+      link: "https://www.nhh.no/contentassets/4d755c93951f427db3bfbf30037206cf/amm_4_equities_small_oneday-compressed.pdf"
+    
     
 
     
