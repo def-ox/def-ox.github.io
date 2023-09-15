@@ -21,7 +21,13 @@
       bio: "Lorenzo is an Assistant Professor at the Collegio Carlo Alberto in Turin. His area of interest is asset pricing, especially within the area of option-implied information, asset management, and DeFi. He is associated with the Fintech & Digital Finance Chair at Paris Dauphine University. He obtained his Ph.D. in Finance at the Frankfurt School of Finance and Management in 2020. He earned his B.Sc. and M.Sc. at the University of Mannheim where he studied Business Mathematics."
       link: ""
     
-
+    - speaker: Guillermo Angeris  (Collegio Carlo Alberto)
+      date: November 8, 2023
+      title: "The Geometry of Constant Function Market Makers"
+      abstract: "Constant function market makers (CFMMs) are the most popular type of decentralized trading venue for cryptocurrency tokens. In this paper, we give a very general geometric framework (or 'axioms') which encompass and generalize many of the known results for CFMMs in the literature, without requiring strong conditions such as differentiability or homogeneity. One particular consequence of this framework is that every CFMM has a (unique) canonical trading function that is nondecreasing, concave, and homogeneous, showing that many results known only for homogeneous trading functions are actually fully general. We also show that CFMMs satisfy a number of intuitive and geometric composition rules, and give a new proof, via conic duality, of the equivalence of the portfolio value function and the trading function. Many results are extended to the general setting where the CFMM is not assumed to be path-independent, but only one trade is allowed. Finally, we show that all 'path-independent' CFMMs have a simple geometric description that does not depend on any notion of a 'trading history'. "
+      bio: "Head of research at Bain Capital Crypto. During his Ph.D. (2019-2022) Guille worked on inverse design in the Nanoscale and Quantum Photonics lab with Prof. Jelena Vučković and Prof. Stephen Boyd. His thesis, Heuristics and bounds for photonic design, focused mostly on some applications of optimization to photonics. He also did his bachelor's and master's at Stanford, also in EE."
+      link: "https://arxiv.org/abs/2308.08066"
+    
     
     
 
