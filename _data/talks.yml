@@ -1,26 +1,5 @@
 - type: Future Talks
-  members:
-    - speaker: Mohak Goyal (Stanford University)
-      date: (Online) October 11, 2023 
-      title: "Optimal Design of Constant Function Market Makers"
-      abstract: "Constant Function Market Makers (CFMMs) are a tool for creating exchange markets, have been deployed effectively in prediction markets, and are now especially prominent in the Decentralized Finance ecosystem. We show that for any set of beliefs about future asset prices, an optimal CFMM trading function exists that maximizes the fraction of trades that a CFMM can settle. We formulate a convex program to compute this optimal trading function. This program, therefore, gives a tractable framework for market-makers to compile their belief function on the future prices of the underlying assets into the trading function of a maximally capital-efficient CFMM. Our convex optimization framework further extends to capture the tradeoffs between fee revenue, arbitrage loss, and opportunity costs of liquidity providers. Analyzing the program shows how the consideration of profit and loss leads to a qualitatively different optimal trading function. Our model additionally explains the diversity of CFMM designs that appear in practice. We show that careful analysis of our convex program enables inference of a market-maker beliefs about future asset prices, and show that these beliefs mirror the folklore intuition for several widely used CFMMs. Developing the program requires a new notion of the liquidity of a CFMM, and the core technical challenge is in the analysis of the KKT conditions of an optimization over an infinite-dimensional Banach space."
-      bio: "Mohak Goyal received the Bachelor of Technology and Master of Technology degrees in electrical engineering from the Indian Institute of Technology Bombay, Mumbai, India, in 2019. Since 2020, he has been working toward the Ph.D. degree with the Department of Management Science and Engineering, Stanford University, Stanford, CA, USA. From 2019 to 2020, he was an Engineer with Qualcomm Research India."
-      link: "https://arxiv.org/abs/2212.03340"
-    
-    - speaker: Olga Klein (Warwick Business School)
-      date: (In-person) October 18, 2023
-      title: "Blockchain scaling and liquidity concentration on decentralized exchanges"
-      abstract: "Liquidity providers (LPs) on decentralized exchanges (DEXs) can protect themselves from adverse selection risk by updating their positions more frequently. However, repositioning is costly, because LPs have to pay gas fees for each update. We analyze the causal relation between repositioning and liquidity concentration around the market price, using the entry of a blockchain scaling solution, Polygon, as our instrument. Polygon's lower gas fees allow LPs to update more frequently than on Ethereum. Our results demonstrate that higher repositioning intensity and precision lead to greater liquidity concentration, which benefits small trades by reducing their slippage."
-      bio: "Olga is an Assistant Professor of Finance and a research fellow at the Gillmore Center of Financial Technology at Warwick Business School. Olga's research interests are in the areas of market microstructure, algorithmic and high-frequency trading, liquidity, market efficiency and fintech. In particular, she studies the impact of technology on liquidity and efficiency of security prices, both on traditional as well as decentralized exchanges (DEX). In her recent research, she has been investigating how blockchain scaling solutions improve liquidity concentration on the largest DEX, Uniswap v3. Prior to joining WBS, she was a post-doctoral research fellow at E-Finance Lab of the University of Frankfurt. Olga holds a Ph.D. in Finance from the University of Mannheim, Germany. She received her MSc in Finance and Economics from the University of Magdeburg in Germany and her BSc in Economic Theory from the Kyiv-Mohyla Academy in Ukraine."
-      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475460"
-    
-    - speaker: Lorenzo Schoenleber  (Collegio Carlo Alberto)
-      date: (In-person) October 25, 2023
-      title: "The Impermanent Loss In Yield Farming"
-      abstract: "The Impermanent Loss In Yield Farming"
-      bio: "Lorenzo is an Assistant Professor at the Collegio Carlo Alberto in Turin. His area of interest is asset pricing, especially within the area of option-implied information, asset management, and DeFi. He is associated with the Fintech & Digital Finance Chair at Paris Dauphine University. He obtained his Ph.D. in Finance at the Frankfurt School of Finance and Management in 2020. He earned his B.Sc. and M.Sc. at the University of Mannheim where he studied Business Mathematics."
-      link: ""
-    
+  members:    
     - speaker: Yiming Ma  (Columbia University, Columbia Business School)
       date: (Online) November 1, 2023
       title: "Stablecoin Runs and the Centralization of Arbitrage"
@@ -47,6 +26,27 @@
 
 - type: Past Talks
   members:
+    - speaker: Mohak Goyal (Stanford University)
+      date: (Online) October 11, 2023 
+      title: "Optimal Design of Constant Function Market Makers"
+      abstract: "Constant Function Market Makers (CFMMs) are a tool for creating exchange markets, have been deployed effectively in prediction markets, and are now especially prominent in the Decentralized Finance ecosystem. We show that for any set of beliefs about future asset prices, an optimal CFMM trading function exists that maximizes the fraction of trades that a CFMM can settle. We formulate a convex program to compute this optimal trading function. This program, therefore, gives a tractable framework for market-makers to compile their belief function on the future prices of the underlying assets into the trading function of a maximally capital-efficient CFMM. Our convex optimization framework further extends to capture the tradeoffs between fee revenue, arbitrage loss, and opportunity costs of liquidity providers. Analyzing the program shows how the consideration of profit and loss leads to a qualitatively different optimal trading function. Our model additionally explains the diversity of CFMM designs that appear in practice. We show that careful analysis of our convex program enables inference of a market-maker beliefs about future asset prices, and show that these beliefs mirror the folklore intuition for several widely used CFMMs. Developing the program requires a new notion of the liquidity of a CFMM, and the core technical challenge is in the analysis of the KKT conditions of an optimization over an infinite-dimensional Banach space."
+      bio: "Mohak Goyal received the Bachelor of Technology and Master of Technology degrees in electrical engineering from the Indian Institute of Technology Bombay, Mumbai, India, in 2019. Since 2020, he has been working toward the Ph.D. degree with the Department of Management Science and Engineering, Stanford University, Stanford, CA, USA. From 2019 to 2020, he was an Engineer with Qualcomm Research India."
+      link: "https://arxiv.org/abs/2212.03340"
+    
+    - speaker: Olga Klein (Warwick Business School)
+      date: (In-person) October 18, 2023
+      title: "Blockchain scaling and liquidity concentration on decentralized exchanges"
+      abstract: "Liquidity providers (LPs) on decentralized exchanges (DEXs) can protect themselves from adverse selection risk by updating their positions more frequently. However, repositioning is costly, because LPs have to pay gas fees for each update. We analyze the causal relation between repositioning and liquidity concentration around the market price, using the entry of a blockchain scaling solution, Polygon, as our instrument. Polygon's lower gas fees allow LPs to update more frequently than on Ethereum. Our results demonstrate that higher repositioning intensity and precision lead to greater liquidity concentration, which benefits small trades by reducing their slippage."
+      bio: "Olga is an Assistant Professor of Finance and a research fellow at the Gillmore Center of Financial Technology at Warwick Business School. Olga's research interests are in the areas of market microstructure, algorithmic and high-frequency trading, liquidity, market efficiency and fintech. In particular, she studies the impact of technology on liquidity and efficiency of security prices, both on traditional as well as decentralized exchanges (DEX). In her recent research, she has been investigating how blockchain scaling solutions improve liquidity concentration on the largest DEX, Uniswap v3. Prior to joining WBS, she was a post-doctoral research fellow at E-Finance Lab of the University of Frankfurt. Olga holds a Ph.D. in Finance from the University of Mannheim, Germany. She received her MSc in Finance and Economics from the University of Magdeburg in Germany and her BSc in Economic Theory from the Kyiv-Mohyla Academy in Ukraine."
+      link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4475460"
+    
+    - speaker: Lorenzo Schoenleber  (Collegio Carlo Alberto)
+      date: (In-person) October 25, 2023
+      title: "The Impermanent Loss In Yield Farming"
+      abstract: " We propose a continuous-time stochastic model to analyze the dynamics of impermanent loss in liquidity pools in decentralized finance (DeFi) protocols. We replicate the impermanent loss using option portfolios for the individual tokens. To estimate the risk-neutral joint distribution of the tokens we minimize the Hansen–Jagannathan bound, which is useful for the valuation of options on relative prices and for calculating implied correlations. We then investigate the relationship between the impermanent loss, the implied quantities, and their risk premia in the cross-section of liquidity pools. We verify our theory using options traded on major centralized derivative exchanges. "
+      bio: "Lorenzo is an Assistant Professor at the Collegio Carlo Alberto in Turin. His area of interest is asset pricing, especially within the area of option-implied information, asset management, and DeFi. He is associated with the Fintech & Digital Finance Chair at Paris Dauphine University. He obtained his Ph.D. in Finance at the Frankfurt School of Finance and Management in 2020. He earned his B.Sc. and M.Sc. at the University of Mannheim where he studied Business Mathematics."
+      link: ""
+      
     - speaker: Andreas Park (University of Toronto)
       date: June 14, 2023
       title: "Learning from DeFi: Would Automated Market Makers Improve Equity Trading?"
